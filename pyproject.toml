@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "langchain-googledrive-dataloader"
+version = "0.1.0"
+description = ""
+authors = ["Taqi Jaffri <tjaffri@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+langchain = "^0.2.15"
+langchain-community = "^0.2.15"
+google-api-python-client = "^2.143.0"
+google-auth-httplib2 = "^0.2.0"
+google-auth-oauthlib = "^1.2.1"
+langchain-google-community = "^1.0.8"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
